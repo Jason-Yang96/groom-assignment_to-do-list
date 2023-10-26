@@ -1,0 +1,11 @@
+.row1 {
+    background-color:rgba(115, 153, 153, 0.5) ;
+    position: fixed;
+    top: 48px;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    color: white;
+}
+.row1 button {
+    color: white;
+}
