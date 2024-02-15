@@ -7,6 +7,7 @@ let todos = [];
 
 // add 버튼을 눌렀을 때, 벌어져야 하는 일을 정의하기
 createBtn.addEventListener('click', createNewTodo);
+displayTodos();
 	// 정확히 어떤 일이 벌어지는지는 아래에 정의해준다. 
 	// 이게 가능한 이유는? 호이스팅. 정의되지 않은 함수를 호출했을 때 그 아래를 확인해 함수를 끌어올려 사용한다
 function createNewTodo() {
@@ -134,7 +135,6 @@ function displayTodos() {
 	}
 }
 
-displayTodos();
 
 function saveToLocalStorage() {
 	const data = JSON.stringify(todos); // 로컬 스토리지에 넣기 위해서는 항상 String으로 넣어야 한다
