@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    background-image: url('/auto2/peakpx.jpg'); 
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.input-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
